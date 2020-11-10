@@ -1,0 +1,475 @@
+
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Creation Begin
+ Tue, 20 Oct 2020 05:25:48 +0000 DEBUG : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\GetCustomerProfileIdsRequest Object
+(
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 5tM9z7h9QfHu
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-2.0.0
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => 
+)
+
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 126) - Request  Creation End
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://apitest.authorize.net/xml/v1/request.api
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+{"getCustomerProfileIdsRequest":{"merchantAuthentication":{"name":"5tM9z7h9QfHu","transactionKey":"7A4ssy93ZHchZ653"},"clientId":"sdk-php-2.0.0"}}
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Tue, 20 Oct 2020 05:25:48 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Tue, 20 Oct 2020 05:25:55 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿{"ids":["1912861818","1915750712","1915751147","1915752126"],"messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}}
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Creation Begin
+ Tue, 20 Oct 2020 11:52:33 +0000 DEBUG : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\GetCustomerProfileIdsRequest Object
+(
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 5tM9z7h9QfHu
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-2.0.0
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => 
+)
+
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 126) - Request  Creation End
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://apitest.authorize.net/xml/v1/request.api
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+{"getCustomerProfileIdsRequest":{"merchantAuthentication":{"name":"5tM9z7h9QfHu","transactionKey":"7A4ssy93ZHchZ653"},"clientId":"sdk-php-2.0.0"}}
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Tue, 20 Oct 2020 11:52:33 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Tue, 20 Oct 2020 11:52:44 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿{"ids":["1912861818","1915750712","1915751147","1915752126"],"messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}}
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Creation Begin
+ Wed, 04 Nov 2020 12:54:54 +0000 DEBUG : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\CreateTransactionRequest Object
+(
+    [transactionRequest:net\authorize\api\contract\v1\CreateTransactionRequest:private] => net\authorize\api\contract\v1\TransactionRequestType Object
+        (
+            [transactionType:net\authorize\api\contract\v1\TransactionRequestType:private] => authCaptureTransaction
+            [amount:net\authorize\api\contract\v1\TransactionRequestType:private] => 20
+            [currencyCode:net\authorize\api\contract\v1\TransactionRequestType:private] => USD
+            [payment:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\PaymentType Object
+                (
+                    [creditCard:net\authorize\api\contract\v1\PaymentType:private] => net\authorize\api\contract\v1\CreditCardType Object
+                        (
+                            [cardCode:net\authorize\api\contract\v1\CreditCardType:private] => xxxx
+                            [isPaymentToken:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cryptogram:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorName:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorId:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorEci:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cardNumber:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx-1111
+                            [expirationDate:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx
+                        )
+
+                    [bankAccount:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [trackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [encryptedTrackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [payPal:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [opaqueData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [emv:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [dataSource:net\authorize\api\contract\v1\PaymentType:private] => 
+                )
+
+            [profile:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [solution:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [callId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [terminalNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [authCode:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [refTransId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [splitTenderId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [order:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\OrderType Object
+                (
+                    [invoiceNumber:net\authorize\api\contract\v1\OrderType:private] => cf7adn/777564443
+                    [description:net\authorize\api\contract\v1\OrderType:private] => Wordpress Testing DB
+                    [discountAmount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [taxIsAfterDiscount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [totalTaxTypeCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [merchantVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [vatInvoiceReferenceNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [summaryCommodityCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaseOrderDateUTC:net\authorize\api\contract\v1\OrderType:private] => 
+                    [supplierOrderReference:net\authorize\api\contract\v1\OrderType:private] => 
+                    [authorizedContactName:net\authorize\api\contract\v1\OrderType:private] => 
+                    [cardAcceptorRefNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA1:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA2:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA3:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA4:net\authorize\api\contract\v1\OrderType:private] => 
+                )
+
+            [lineItems:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [duty:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipping:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [taxExempt:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [poNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customer:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerDataType Object
+                (
+                    [type:net\authorize\api\contract\v1\CustomerDataType:private] => individual
+                    [id:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerDataType:private] => manalee@zealousweb.com
+                    [driversLicense:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [taxId:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                )
+
+            [billTo:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerAddressType Object
+                (
+                    [phoneNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [faxNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [firstName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [lastName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [company:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [address:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [city:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [state:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [zip:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [country:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                )
+
+            [shipTo:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customerIP:net\authorize\api\contract\v1\TransactionRequestType:private] => 192.168.1.1
+            [cardholderAuthentication:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [retail:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [employeeId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [transactionSettings:net\authorize\api\contract\v1\TransactionRequestType:private] => Array
+                (
+                    [0] => net\authorize\api\contract\v1\SettingType Object
+                        (
+                            [settingName:net\authorize\api\contract\v1\SettingType:private] => duplicateWindow
+                            [settingValue:net\authorize\api\contract\v1\SettingType:private] => 60
+                        )
+
+                )
+
+            [userFields:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [surcharge:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [merchantDescriptor:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subMerchant:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tip:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [processingOptions:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subsequentAuthInformation:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [otherTax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipFrom:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+        )
+
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 5tM9z7h9QfHu
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-2.0.0
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => cf7adn-ref1604494494
+)
+
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 126) - Request  Creation End
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://apitest.authorize.net/xml/v1/request.api
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+{"createTransactionRequest":{"merchantAuthentication":{"name":"5tM9z7h9QfHu","transactionKey":"7A4ssy93ZHchZ653"},"clientId":"sdk-php-2.0.0","refId":"cf7adn-ref1604494494","transactionRequest":{"transactionType":"authCaptureTransaction","amount":20,"currencyCode":"USD","payment":{"creditCard":{"cardNumber":"xxxx","expirationDate":"2024-02","cardCode":"111"}},"order":{"invoiceNumber":"cf7adn\/777564443","description":"Wordpress Testing DB"},"customer":{"type":"individual","email":"manalee@zealousweb.com"},"billTo":[],"customerIP":"192.168.1.1","transactionSettings":{"setting":[{"settingName":"duplicateWindow","settingValue":"60"}]}}}}
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Wed, 04 Nov 2020 12:54:54 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Wed, 04 Nov 2020 12:55:04 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿{"transactionResponse":{"responseCode":"1","authCode":"3CF7GH","avsResultCode":"Y","cvvResultCode":"P","cavvResultCode":"2","transId":"60155182357","refTransID":"","transHash":"","testRequest":"0","accountNumber":"XXXX1111","accountType":"Visa","messages":[{"code":"1","description":"This transaction has been approved."}],"transHashSha2":"","SupplementalDataQualificationIndicator":0,"networkTransId":"CETXVUEDURT9Z83O42AJSY6"},"refId":"cf7adn-ref1604494494","messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}}
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Creation Begin
+ Wed, 04 Nov 2020 13:05:40 +0000 DEBUG : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\CreateTransactionRequest Object
+(
+    [transactionRequest:net\authorize\api\contract\v1\CreateTransactionRequest:private] => net\authorize\api\contract\v1\TransactionRequestType Object
+        (
+            [transactionType:net\authorize\api\contract\v1\TransactionRequestType:private] => authCaptureTransaction
+            [amount:net\authorize\api\contract\v1\TransactionRequestType:private] => 25
+            [currencyCode:net\authorize\api\contract\v1\TransactionRequestType:private] => USD
+            [payment:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\PaymentType Object
+                (
+                    [creditCard:net\authorize\api\contract\v1\PaymentType:private] => net\authorize\api\contract\v1\CreditCardType Object
+                        (
+                            [cardCode:net\authorize\api\contract\v1\CreditCardType:private] => xxxx
+                            [isPaymentToken:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cryptogram:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorName:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorId:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorEci:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cardNumber:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx-1111
+                            [expirationDate:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx
+                        )
+
+                    [bankAccount:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [trackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [encryptedTrackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [payPal:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [opaqueData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [emv:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [dataSource:net\authorize\api\contract\v1\PaymentType:private] => 
+                )
+
+            [profile:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [solution:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [callId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [terminalNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [authCode:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [refTransId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [splitTenderId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [order:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\OrderType Object
+                (
+                    [invoiceNumber:net\authorize\api\contract\v1\OrderType:private] => cf7adn/1808898535
+                    [description:net\authorize\api\contract\v1\OrderType:private] => Wordpress Testing DB
+                    [discountAmount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [taxIsAfterDiscount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [totalTaxTypeCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [merchantVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [vatInvoiceReferenceNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [summaryCommodityCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaseOrderDateUTC:net\authorize\api\contract\v1\OrderType:private] => 
+                    [supplierOrderReference:net\authorize\api\contract\v1\OrderType:private] => 
+                    [authorizedContactName:net\authorize\api\contract\v1\OrderType:private] => 
+                    [cardAcceptorRefNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA1:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA2:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA3:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA4:net\authorize\api\contract\v1\OrderType:private] => 
+                )
+
+            [lineItems:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [duty:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipping:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [taxExempt:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [poNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customer:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerDataType Object
+                (
+                    [type:net\authorize\api\contract\v1\CustomerDataType:private] => individual
+                    [id:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerDataType:private] => manalee@zealousweb.com
+                    [driversLicense:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [taxId:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                )
+
+            [billTo:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerAddressType Object
+                (
+                    [phoneNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [faxNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [firstName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [lastName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [company:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [address:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [city:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [state:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [zip:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [country:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                )
+
+            [shipTo:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customerIP:net\authorize\api\contract\v1\TransactionRequestType:private] => 192.168.1.1
+            [cardholderAuthentication:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [retail:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [employeeId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [transactionSettings:net\authorize\api\contract\v1\TransactionRequestType:private] => Array
+                (
+                    [0] => net\authorize\api\contract\v1\SettingType Object
+                        (
+                            [settingName:net\authorize\api\contract\v1\SettingType:private] => duplicateWindow
+                            [settingValue:net\authorize\api\contract\v1\SettingType:private] => 60
+                        )
+
+                )
+
+            [userFields:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [surcharge:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [merchantDescriptor:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subMerchant:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tip:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [processingOptions:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subsequentAuthInformation:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [otherTax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipFrom:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+        )
+
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 5tM9z7h9QfHu
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-2.0.0
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => cf7adn-ref1604495140
+)
+
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 126) - Request  Creation End
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://apitest.authorize.net/xml/v1/request.api
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+{"createTransactionRequest":{"merchantAuthentication":{"name":"5tM9z7h9QfHu","transactionKey":"7A4ssy93ZHchZ653"},"clientId":"sdk-php-2.0.0","refId":"cf7adn-ref1604495140","transactionRequest":{"transactionType":"authCaptureTransaction","amount":25,"currencyCode":"USD","payment":{"creditCard":{"cardNumber":"xxxx","expirationDate":"2024-02","cardCode":"111"}},"order":{"invoiceNumber":"cf7adn\/1808898535","description":"Wordpress Testing DB"},"customer":{"type":"individual","email":"manalee@zealousweb.com"},"billTo":[],"customerIP":"192.168.1.1","transactionSettings":{"setting":[{"settingName":"duplicateWindow","settingValue":"60"}]}}}}
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Wed, 04 Nov 2020 13:05:40 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Wed, 04 Nov 2020 13:05:57 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿{"transactionResponse":{"responseCode":"4","authCode":"","avsResultCode":"P","cvvResultCode":"","cavvResultCode":"","transId":"60155182638","refTransID":"","transHash":"","testRequest":"0","accountNumber":"XXXX1111","accountType":"Visa","messages":[{"code":"252","description":"Your order has been received. Thank you for your business!"}],"transHashSha2":"","SupplementalDataQualificationIndicator":0},"refId":"cf7adn-ref1604495140","messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}}
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Creation Begin
+ Mon, 09 Nov 2020 11:33:36 +0000 DEBUG : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\CreateTransactionRequest Object
+(
+    [transactionRequest:net\authorize\api\contract\v1\CreateTransactionRequest:private] => net\authorize\api\contract\v1\TransactionRequestType Object
+        (
+            [transactionType:net\authorize\api\contract\v1\TransactionRequestType:private] => authCaptureTransaction
+            [amount:net\authorize\api\contract\v1\TransactionRequestType:private] => 15
+            [currencyCode:net\authorize\api\contract\v1\TransactionRequestType:private] => USD
+            [payment:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\PaymentType Object
+                (
+                    [creditCard:net\authorize\api\contract\v1\PaymentType:private] => net\authorize\api\contract\v1\CreditCardType Object
+                        (
+                            [cardCode:net\authorize\api\contract\v1\CreditCardType:private] => xxxx
+                            [isPaymentToken:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cryptogram:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorName:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorId:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [tokenRequestorEci:net\authorize\api\contract\v1\CreditCardType:private] => 
+                            [cardNumber:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx-1111
+                            [expirationDate:net\authorize\api\contract\v1\CreditCardSimpleType:private] => xxxx
+                        )
+
+                    [bankAccount:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [trackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [encryptedTrackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [payPal:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [opaqueData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [emv:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [dataSource:net\authorize\api\contract\v1\PaymentType:private] => 
+                )
+
+            [profile:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [solution:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [callId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [terminalNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [authCode:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [refTransId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [splitTenderId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [order:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\OrderType Object
+                (
+                    [invoiceNumber:net\authorize\api\contract\v1\OrderType:private] => cf7adn/2111796773
+                    [description:net\authorize\api\contract\v1\OrderType:private] => Wordpress Testing DB
+                    [discountAmount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [taxIsAfterDiscount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [totalTaxTypeCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [merchantVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [vatInvoiceReferenceNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [summaryCommodityCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaseOrderDateUTC:net\authorize\api\contract\v1\OrderType:private] => 
+                    [supplierOrderReference:net\authorize\api\contract\v1\OrderType:private] => 
+                    [authorizedContactName:net\authorize\api\contract\v1\OrderType:private] => 
+                    [cardAcceptorRefNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA1:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA2:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA3:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA4:net\authorize\api\contract\v1\OrderType:private] => 
+                )
+
+            [lineItems:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [duty:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipping:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [taxExempt:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [poNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customer:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerDataType Object
+                (
+                    [type:net\authorize\api\contract\v1\CustomerDataType:private] => individual
+                    [id:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerDataType:private] => manalee@zealousweb.com
+                    [driversLicense:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [taxId:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                )
+
+            [billTo:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerAddressType Object
+                (
+                    [phoneNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [faxNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [firstName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [lastName:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [company:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [address:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [city:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [state:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [zip:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [country:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                )
+
+            [shipTo:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customerIP:net\authorize\api\contract\v1\TransactionRequestType:private] => 192.168.1.1
+            [cardholderAuthentication:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [retail:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [employeeId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [transactionSettings:net\authorize\api\contract\v1\TransactionRequestType:private] => Array
+                (
+                    [0] => net\authorize\api\contract\v1\SettingType Object
+                        (
+                            [settingName:net\authorize\api\contract\v1\SettingType:private] => duplicateWindow
+                            [settingValue:net\authorize\api\contract\v1\SettingType:private] => 60
+                        )
+
+                )
+
+            [userFields:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [surcharge:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [merchantDescriptor:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subMerchant:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tip:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [processingOptions:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subsequentAuthInformation:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [otherTax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipFrom:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+        )
+
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 5tM9z7h9QfHu
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-2.0.0
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => cf7adn-ref1604921616
+)
+
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [execute] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/api/controller/base/ApiOperationBase.php : 126) - Request  Creation End
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://apitest.authorize.net/xml/v1/request.api
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+{"createTransactionRequest":{"merchantAuthentication":{"name":"5tM9z7h9QfHu","transactionKey":"7A4ssy93ZHchZ653"},"clientId":"sdk-php-2.0.0","refId":"cf7adn-ref1604921616","transactionRequest":{"transactionType":"authCaptureTransaction","amount":15,"currencyCode":"USD","payment":{"creditCard":{"cardNumber":"xxxx","expirationDate":"2021-02","cardCode":"000"}},"order":{"invoiceNumber":"cf7adn\/2111796773","description":"Wordpress Testing DB"},"customer":{"type":"individual","email":"manalee@zealousweb.com"},"billTo":[],"customerIP":"192.168.1.1","transactionSettings":{"setting":[{"settingName":"duplicateWindow","settingValue":"60"}]}}}}
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Mon, 09 Nov 2020 11:33:36 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Mon, 09 Nov 2020 11:33:47 +0000 INFO : [_sendRequest] (/master/zwtsrvc/public_html/projects/test/manalee/wp-content/plugins/accept-authorize.net-payments-using-contact-form-7/inc/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿{"transactionResponse":{"responseCode":"1","authCode":"RVDNGH","avsResultCode":"Y","cvvResultCode":"P","cavvResultCode":"2","transId":"60155599349","refTransID":"","transHash":"","testRequest":"0","accountNumber":"XXXX1111","accountType":"Visa","messages":[{"code":"1","description":"This transaction has been approved."}],"transHashSha2":"","SupplementalDataQualificationIndicator":0,"networkTransId":"S6WYIQ07AXS9DHUB5AM3YFC"},"refId":"cf7adn-ref1604921616","messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}}
